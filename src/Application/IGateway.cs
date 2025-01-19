@@ -4,5 +4,5 @@ public interface IGateway
 {
     WorkOrder Create(WorkOrder workOrder);
     List<WorkOrder> GetAllOrders();
-    List<WorkOrder> GetReleasedOrderByPartName();
+    bool AreOrdersAlreadyReleased(List<WorkOrder> orders);
 }

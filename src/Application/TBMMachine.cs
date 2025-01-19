@@ -1,5 +1,3 @@
 namespace Application;
 
-public class TBMMachine : Machine
-{
-}
+public class TBMMachine(List<WorkOrder> workOrders) : Machine(workOrders);

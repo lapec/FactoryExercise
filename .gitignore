@@ -1,2 +1,5 @@
 
 *.dll
+/src/Application/obj
+/tests/bin
+*.pdb
