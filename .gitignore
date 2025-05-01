@@ -3,3 +3,8 @@
 /src/Application/obj
 /tests/bin
 *.pdb
+*.info
+*.editorconfig
+*.cache
+/src/Application
+/tests/bin
